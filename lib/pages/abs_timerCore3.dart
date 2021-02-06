@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/material.dart' as prefix0;
-import 'package:running/tabs/Programs.dart';
 import 'dart:ui';
 import 'dart:async';
+
+import 'package:running/tabs/tabs.dart';
 
 class AbsTimerCore3 extends StatelessWidget {
   final String image =
@@ -113,7 +114,7 @@ class Portrait extends StatelessWidget {
                         Navigator.push(
                           context,
                           MaterialPageRoute(builder: (_) {
-                            return Programs();
+                            return Tabs();
                           }),
                         );
                       },
